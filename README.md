@@ -1,3 +1,8 @@
-#  Ceneje - Vanilla JS ESLint rules
+#  Ceneje - ESLint rules
 
-This is package of Ceneje company Vanilla JS ESLint rules, to be shared among all projects. 
+This is repository of Ceneje d.o.o. packages of ESLint rules. 
+
+### Packages:
+
+`@ceneje/eslint-rules`
+`@ceneje/eslint-rules-vue`

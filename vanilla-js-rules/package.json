@@ -1,0 +1,32 @@
+{
+  "name": "@ceneje/eslint-rules",
+  "author": "Ceneje d.o.o.",
+  "version": "1.1.6",
+  "description": "Ceneje shared ESLint rules for vanilla JS.",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=7",
+    "eslint-config-standard": "^17.0.0"
+  },
+  "publishConfig":{
+    "@ceneje:registry": "https://gitlab.com/api/v4/projects/43873483/packages/npm/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/ceneje/eslint-rules-ceneje.git"
+  },
+  "keywords": [
+    "eslint",
+    "linting",
+    "Ceneje d.o.o.",
+    "vanilla JS"
+  ],
+  "bugs": {
+    "url": "https://gitlab.com/ceneje/eslint-rules-ceneje/issues"
+  },
+  "homepage": "https://gitlab.com/ceneje/eslint-rules-ceneje#readme",
+  "license": "Copyright 2023 Ceneje d.o.o., all rights reserved"
+}
