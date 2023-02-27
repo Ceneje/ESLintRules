@@ -9,14 +9,14 @@
     "eslint-config-react-app": "^9.9.0"
   },
   "publishConfig":{
-    "@ceneje:registry": "https://gitlab.com/api/v4/projects/43873483/packages/npm/"
+    "@ceneje:registry": "https://github.com/Ceneje/ESLintRules"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/ceneje/eslint-rules-ceneje.git"
+    "url": "git@github.com:Ceneje/ESLintRules.git"
   },
   "keywords": [
     "eslint",
@@ -25,8 +25,8 @@
     "React JS"
   ],
   "bugs": {
-    "url": "https://gitlab.com/ceneje/eslint-rules-ceneje/issues"
+    "url": "https://github.com/Ceneje/ESLintRules/issues"
   },
-  "homepage": "https://gitlab.com/ceneje/eslint-rules-ceneje#readme",
+  "homepage": "https://github.com/Ceneje/ESLintRules",
   "license": "Copyright 2023 Ceneje d.o.o., all rights reserved"
 }
