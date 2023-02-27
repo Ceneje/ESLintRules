@@ -1,3 +1,3 @@
-#  Ceneje - Vanilla JS ESLint rules
+#  Ceneje - Vue JS ESLint rules
 
-This is package of Ceneje company Vanilla JS ESLint rules, to be shared among all projects. 
+This is package of Ceneje company Vue JS ESLint rules, to be shared among all projects. 

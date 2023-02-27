@@ -1,12 +1,12 @@
 {
-  "name": "@ceneje/eslint-rules-vue",
+  "name": "@ceneje/eslint-rules-react",
   "author": "Ceneje d.o.o.",
-  "version": "1.1.1",
-  "description": "Ceneje shared ESLint rules for Vue JS.",
+  "version": "1.1.0",
+  "description": "Ceneje shared ESLint rules for React JS.",
   "main": "index.js",
   "peerDependencies": {
     "eslint": ">=7",
-    "eslint-plugin-vue": "^9.9.0"
+    "eslint-config-react-app": "^9.9.0"
   },
   "publishConfig":{
     "@ceneje:registry": "https://gitlab.com/api/v4/projects/43873483/packages/npm/"
@@ -22,7 +22,7 @@
     "eslint",
     "linting",
     "Ceneje d.o.o.",
-    "Vue JS"
+    "React JS"
   ],
   "bugs": {
     "url": "https://gitlab.com/ceneje/eslint-rules-ceneje/issues"
