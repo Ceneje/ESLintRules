@@ -9,7 +9,7 @@
     "eslint-config-react-app": "^9.9.0"
   },
   "publishConfig":{
-    "@ceneje:registry": "https://github.com/Ceneje/ESLintRules"
+    "@ceneje:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
