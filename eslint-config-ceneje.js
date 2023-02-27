@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
-    'react-app',
-    'react-app/jest',
+    'standard',
   ],
   rules: {
     semi: ['error', 'always'],

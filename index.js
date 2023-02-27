@@ -1,1 +1,1 @@
-module.exports = require('./eslint-config-ceneje.js');
+module.exports = require('./eslint-config-ceneje');

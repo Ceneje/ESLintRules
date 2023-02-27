@@ -1,3 +1,3 @@
-# ESLint Rules Ceneje
+#  Ceneje - Vanilla JS ESLint rules
 
-This repository is hosting Ceneje company ESLint rules, to be shared among all projects. 
+This is package of Ceneje company Vanilla JS ESLint rules, to be shared among all projects. 
