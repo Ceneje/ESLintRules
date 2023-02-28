@@ -1,7 +1,7 @@
 {
   "name": "@ceneje/eslint-rules",
   "author": "Ceneje d.o.o.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Ceneje shared ESLint rules for vanilla JS.",
   "main": "index.js",
   "peerDependencies": {
