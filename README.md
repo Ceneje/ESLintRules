@@ -1,6 +1,38 @@
 #  Ceneje - ESLint rules
 
-This is repository of Ceneje d.o.o. packages of ESLint rules. 
+This is repository of Ceneje d.o.o. packages of ESLint rules.
+
+Background:
+
+We previously had a repository that hosted all our ESLint packages. However, we faced issues with accessing the packages without a GitHub Persona Access Token.
+To address this, we decided to install packages directly from the repository code. However, to do so, the package.json file of the code must be in the root of the repository.
+Unfortunately, this meant that we couldn't host each package on the same repository.
+To avoid creating multiple repositories, we separated the package code into separate branches.
+Current state:
+
+As a result, we now have multiple branches in our repository, with each branch containing the code for a specific ESLint package.
+
+### Branches:
+
+* `eslint-rules`
+* `eslint-rules-vue`
+* `eslint-rules-react`
+
+each containing the code of each package. 
+
+### Use packages:
+
+1. Install any or all packages:
+
+   `npm i https://github.com/Ceneje/ESLintRules#eslint-rules --save`
+
+   `npm i https://github.com/Ceneje/ESLintRules#eslint-rules-vue --save`
+
+   `npm i https://github.com/Ceneje/ESLintRules#eslint-rules-react --save`
+
+## Obsolete usage
+
+> NOTE: Published packages on the repo are not maintained anymore.
 
 ### Use packages:
 
