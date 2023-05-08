@@ -3,7 +3,7 @@ module.exports = {
   extends: [
     'standard',
   ],
-  files: ['**/*.{js,ts,json}'],
+  ignorePatterns: ['**/*.{jsx,tsx}'],
   rules: {
     semi: ['error', 'always'],
     indent: [ 'error', 4, { SwitchCase: 1 } ],
