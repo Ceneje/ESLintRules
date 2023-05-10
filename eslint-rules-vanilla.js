@@ -3,7 +3,6 @@ module.exports = {
   extends: [
     'standard',
   ],
-  ignorePatterns: ['**/*.{jsx,tsx}'],
   rules: {
     semi: ['error', 'always'],
     indent: [ 'error', 4, { SwitchCase: 1, ignoredNodes: ['JSXElement *', 'JSXElement'] } ],
