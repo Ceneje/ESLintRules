@@ -1,10 +1,11 @@
 module.exports = {
+  plugins: ['import'],
   extends: [
     'standard',
   ],
   rules: {
     semi: ['error', 'always'],
-    indent: ['error', 4],
+    indent: [ 'error', 4, { SwitchCase: 1, ignoredNodes: ['JSXElement *', 'JSXElement'] } ],
     quotes: ['error', 'single'],
     'object-property-newline': ['error', {allowAllPropertiesOnSameLine: false}],
     'object-curly-spacing': ['error', 'always'],
