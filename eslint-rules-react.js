@@ -20,14 +20,16 @@ module.exports = {
         'react/jsx-closing-bracket-location': 2,
         'react/jsx-wrap-multilines':          [
             2, {
-                declaration: 'ignore',
-                assignment:  'ignore',
+                declaration: 'parens-new-line',
+                assignment:  'parens-new-line',
                 return:      'parens-new-line',
-                arrow:       'ignore',
-                condition:   'ignore',
-                logical:     'ignore',
-                prop:        'ignore',
+                arrow:       'parens-new-line',
+                condition:   'parens-new-line',
+                logical:     'parens-new-line',
+                prop:        'parens-new-line',
             },
         ],
+        'react/jsx-indent-props': [2, 'first'],
+        'react/jsx-first-prop-new-line': [2, 'never']
     },
 }
