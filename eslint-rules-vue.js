@@ -1,7 +1,7 @@
 module.exports = {
   plugins:   [ 'vue' ],
   extends: [
-    'plugin:vue/vue3-essential',
+    'plugin:vue/essential',
   ],
   rules:   {
     'vue/multi-word-component-names': 0,
